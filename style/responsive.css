@@ -1,19 +1,39 @@
 @media screen and (min-width:992px) {
-    .bar{
+    .bar {
         display: none;
     }
 }
+
 @media screen and (max-width:576px) {
-    .nav-link,.nav-icon,.nav{
+
+    .nav-link,
+    .nav-icon,
+    .nav {
         display: none;
     }
-    .bar{
+
+    .bar {
         display: block;
     }
-    .navbar-container{
+
+    .navbar-container {
         gap: 30px;
     }
-    .brand{
-        font-size:1rem;
+
+    .brand {
+        font-size: 1rem;
     }
+}
+/* responsive banner start here */
+
+@media screen and (max-width: 576px) {
+    .banner-content {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .banner-container,.banner-title,.banner-description{
+        text-align: center;
+    }
+
 }
