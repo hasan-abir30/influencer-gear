@@ -1,0 +1,19 @@
+@media screen and (min-width:992px) {
+    .bar{
+        display: none;
+    }
+}
+@media screen and (max-width:576px) {
+    .nav-link,.nav-icon,.nav{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .navbar-container{
+        gap: 30px;
+    }
+    .brand{
+        font-size:1rem;
+    }
+}
